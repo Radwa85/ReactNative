@@ -1,8 +1,5 @@
-import { SafeAreaProvider } from "react-native-safe-area-context";
-import SignUp from "../screens/SignUp";
+import FoodHomeScreen from '../../src/screens/FoodHomeScreen';
 
-export default function HomeScreen() {
-  return(
-    <SafeAreaProvider><SignUp />;</SafeAreaProvider>
-  ) 
+export default function Route() {
+  return <FoodHomeScreen />;
 }
