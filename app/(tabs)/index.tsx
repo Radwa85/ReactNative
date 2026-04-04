@@ -1,5 +1,5 @@
-import TasksScreen from '../../src/screens/TasksScreen';
+import FoodHomeScreen from '../../src/screens/FoodHomeScreen';
 
 export default function Route() {
-  return <TasksScreen />;
+  return <FoodHomeScreen />;
 }

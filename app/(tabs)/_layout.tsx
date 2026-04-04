@@ -66,9 +66,10 @@ export default function DrawerLayout() {
       <Drawer.Screen
         name="index" 
         options={{
-          drawerLabel: 'All Tasks',
-          title: 'Tasks',
-          drawerIcon: ({ color }) => <FontAwesome size={24} name="list-alt" color={color} />,
+          drawerLabel: 'Food Home',
+          title: 'Food Home',
+          headerShown: false,
+          drawerIcon: ({ color }) => <FontAwesome size={24} name="home" color={color} />,
         }}
       />
       <Drawer.Screen
